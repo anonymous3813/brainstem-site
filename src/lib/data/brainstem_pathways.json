@@ -1,0 +1,170 @@
+[
+  {
+    "signal": "Heart Rate Regulation",
+    "region": "Medulla",
+    "description": "The cardiovascular center in the medulla oblongata plays a vital role in regulating heart rate and blood pressure, primarily through the autonomic nervous system via the vagus nerve.",
+    "cranialNerves": ["X (Vagus)"],
+    "relatedConditions": ["Brainstem stroke affecting vital centers", "Autonomic dysregulation"]
+  },
+  {
+    "signal": "Blood Pressure Regulation",
+    "region": "Medulla",
+    "description": "The vasomotor center in the medulla controls the constriction and dilation of blood vessels, thereby regulating systemic blood pressure.",
+    "cranialNerves": ["X (Vagus)", "IX (Glossopharyngeal) - via baroreceptors"],
+    "relatedConditions": ["Orthostatic hypotension", "Hypertensive crisis"]
+  },
+  {
+    "signal": "Breathing Rhythm",
+    "region": "Medulla",
+    "description": "The medullary respiratory centers (dorsal and ventral respiratory groups) establish the basic rhythm of breathing, receiving input from chemoreceptors and mechanoreceptors.",
+    "cranialNerves": ["X (Vagus)", "IX (Glossopharyngeal)"],
+    "relatedConditions": ["Central sleep apnea", "Opioid overdose (respiratory depression)"]
+  },
+  {
+    "signal": "Cough Reflex",
+    "region": "Medulla",
+    "description": "A protective reflex initiated by irritants in the respiratory tract, coordinated by the medulla oblongata to expel foreign matter.",
+    "cranialNerves": ["X (Vagus)", "IX (Glossopharyngeal)"],
+    "relatedConditions": ["Brainstem injury", "Loss of protective reflexes"]
+  },
+  {
+    "signal": "Sneeze Reflex",
+    "region": "Medulla",
+    "description": "Similar to the cough reflex, the sneeze reflex is a protective expulsion of irritants from the nasal passages, orchestrated by the medulla.",
+    "cranialNerves": ["V (Trigeminal) - sensory input", "VII (Facial)", "IX (Glossopharyngeal)", "X (Vagus)"],
+    "relatedConditions": ["Loss of protective reflexes"]
+  },
+  {
+    "signal": "Swallowing (Complex)",
+    "region": "Medulla",
+    "description": "The swallowing center in the medulla coordinates the complex sequence of muscular contractions in the pharynx and esophagus during deglutition.",
+    "cranialNerves": ["IX (Glossopharyngeal)", "X (Vagus)", "XII (Hypoglossal)"],
+    "relatedConditions": ["Dysphagia (difficulty swallowing)", "Brainstem stroke"]
+  },
+  {
+    "signal": "Vomiting Reflex",
+    "region": "Medulla",
+    "description": "The vomiting center in the medulla is responsible for initiating the complex motor sequence of emesis, triggered by various stimuli.",
+    "cranialNerves": ["X (Vagus)"],
+    "relatedConditions": ["Motion sickness", "Chemotherapy-induced nausea and vomiting"]
+  },
+  {
+    "signal": "Hiccups",
+    "region": "Medulla",
+    "description": "Involuntary spasms of the diaphragm, often caused by irritation of the phrenic or vagus nerves, with the reflex arc coordinated in the medulla.",
+    "cranialNerves": ["X (Vagus)"],
+    "relatedConditions": ["Persistent hiccups (can indicate underlying neurological issues)"]
+  },
+  {
+    "signal": "Tongue Movement",
+    "region": "Medulla",
+    "description": "The hypoglossal nucleus in the medulla controls the intrinsic and extrinsic muscles of the tongue, crucial for speech and swallowing.",
+    "cranialNerves": ["XII (Hypoglossal)"],
+    "relatedConditions": ["Dysarthria (speech difficulties)", "Tongue deviation (neurological sign)"]
+  },
+  {
+    "signal": "Pharynx/Larynx Sensation",
+    "region": "Medulla",
+    "description": "Sensory information from the pharynx and larynx, vital for gag reflex and awareness of food/liquid in the throat, is processed in the medulla.",
+    "cranialNerves": ["IX (Glossopharyngeal)", "X (Vagus)"],
+    "relatedConditions": ["Loss of gag reflex", "Aspiration pneumonia"]
+  },
+  {
+    "signal": "Sleep Cycle Regulation",
+    "region": "Pons",
+    "description": "Nuclei within the pons, particularly the pontine reticular formation, play a significant role in regulating the sleep-wake cycle and promoting REM sleep.",
+    "cranialNerves": [],
+    "relatedConditions": ["Narcolepsy", "Insomnia"]
+  },
+  {
+    "signal": "Dreaming",
+    "region": "Pons",
+    "description": "While dreams originate from higher cortical activity, the pontine reticular formation is critical for generating the REM sleep state during which most dreaming occurs.",
+    "cranialNerves": [],
+    "relatedConditions": ["REM sleep behavior disorder"]
+  },
+  {
+    "signal": "Facial Expressions",
+    "region": "Pons",
+    "description": "The facial nerve nucleus in the pons controls the muscles of facial expression, allowing for a wide range of non-verbal communication.",
+    "cranialNerves": ["VII (Facial)"],
+    "relatedConditions": ["Bell's Palsy", "Stroke affecting facial nerve pathways"]
+  },
+  {
+    "signal": "Chewing",
+    "region": "Pons",
+    "description": "The motor nucleus of the trigeminal nerve in the pons controls the muscles of mastication (chewing).",
+    "cranialNerves": ["V (Trigeminal)"],
+    "relatedConditions": ["Trigeminal neuralgia", "Masticatory muscle weakness"]
+  },
+  {
+    "signal": "Eye Blinking (Reflex)",
+    "region": "Pons",
+    "description": "The corneal reflex (blink reflex) involves sensory input via the trigeminal nerve and motor output via the facial nerve, both with nuclei in the pons.",
+    "cranialNerves": ["V (Trigeminal) - afferent", "VII (Facial) - efferent"],
+    "relatedConditions": ["Brainstem lesions", "Corneal abrasion"]
+  },
+  {
+    "signal": "Equilibrium/Balance (Relay)",
+    "region": "Pons",
+    "description": "The pons serves as a crucial relay station for vestibular (balance) information between the inner ear, cerebellum, and higher brain centers.",
+    "cranialNerves": ["VIII (Vestibulocochlear) - vestibular portion"],
+    "relatedConditions": ["Vertigo", "Ataxia"]
+  },
+  {
+    "signal": "Hearing (Relay)",
+    "region": "Pons",
+    "description": "Auditory pathways pass through and synapse in the pons, specifically in the cochlear nuclei and superior olivary complex, which are important for sound localization.",
+    "cranialNerves": ["VIII (Vestibulocochlear) - cochlear portion"],
+    "relatedConditions": ["Central auditory processing disorder", "Brainstem auditory evoked response (BAER) abnormalities"]
+  },
+  {
+    "signal": "Pupil Light Reflex",
+    "region": "Midbrain",
+    "description": "The midbrain contains the Edinger-Westphal nucleus and pathways for the oculomotor nerve, controlling pupillary constriction in response to light.",
+    "cranialNerves": ["II (Optic) - afferent", "III (Oculomotor) - efferent"],
+    "relatedConditions": ["Horner's syndrome", "Third nerve palsy"]
+  },
+  {
+    "signal": "Eye Tracking Movements",
+    "region": "Midbrain",
+    "description": "The midbrain's superior colliculus is essential for orienting the eyes and head towards visual stimuli and for smooth pursuit eye movements.",
+    "cranialNerves": ["III (Oculomotor)", "IV (Trochlear)", "VI (Abducens) - though VI nucleus is in pons, pathways for coordinated eye movements involve midbrain"],
+    "relatedConditions": ["Oculomotor palsy", "Gaze palsies"]
+  },
+  {
+    "signal": "Auditory Startle Reflex (Turning head to sound)",
+    "region": "Midbrain",
+    "description": "The inferior colliculus of the midbrain processes auditory information and mediates reflexive head and eye movements in response to sudden sounds.",
+    "cranialNerves": ["VIII (Vestibulocochlear)"],
+    "relatedConditions": ["Hyperacusis (sound sensitivity)"]
+  },
+  {
+    "signal": "Substantia Nigra (Dopamine Production)",
+    "region": "Midbrain",
+    "description": "A key nucleus in the midbrain, the substantia nigra produces dopamine, critical for smooth, coordinated voluntary movement. It is part of the basal ganglia circuit.",
+    "cranialNerves": [],
+    "relatedConditions": ["Parkinson's Disease (degeneration of dopaminergic neurons)"]
+  },
+  {
+    "signal": "Red Nucleus (Motor Coordination)",
+    "region": "Midbrain",
+    "description": "The red nucleus in the midbrain plays a role in motor coordination, particularly of upper limb flexion, and is involved in the rubrospinal tract.",
+    "cranialNerves": [],
+    "relatedConditions": ["Midbrain stroke", "Tremors"]
+  },
+  {
+    "signal": "Oculomotor Control",
+    "region": "Midbrain",
+    "description": "The oculomotor nucleus in the midbrain innervates most of the extrinsic eye muscles, controlling eye movements like elevation, depression, and adduction, as well as eyelid elevation.",
+    "cranialNerves": ["III (Oculomotor)"],
+    "relatedConditions": ["Oculomotor nerve palsy (e.g., ptosis, dilated pupil, \"down and out\" eye)"]
+  },
+  {
+    "signal": "Trochlear Control",
+    "region": "Midbrain",
+    "description": "The trochlear nucleus, located in the midbrain, is unique in that its nerve (CN IV) exits dorsally and controls the superior oblique muscle, responsible for downward and inward eye movement.",
+    "cranialNerves": ["IV (Trochlear)"],
+    "relatedConditions": ["Trochlear nerve palsy (e.g., vertical diplopia, head tilt)"]
+  }
+]
