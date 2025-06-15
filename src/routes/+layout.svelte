@@ -5,7 +5,7 @@
 
 <div class="min-h-screen flex flex-col bg-black-100 text-white">
 	<!-- Header -->
-	<div class="p-4 shadow-md">
+	<div class="p-4 shadow-md bg-black transition-colors duration-300">
 		<div class="flex justify-between items-center">
 			<div class="text-lg font-bold">The Brainstem</div>
 			<div class="space-x-4">
