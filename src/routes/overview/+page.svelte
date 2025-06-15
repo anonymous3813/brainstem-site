@@ -31,14 +31,13 @@
 		}
 	];
 
-    
 	onMount(() => {
-        console.log("Mounting");
-        if(spline) {
-            spline.addEventListener('load-complete', (e)=> {
-                splineLoaded = true;
-            })
-        }
+		console.log('Mounting');
+		if (spline) {
+			spline.addEventListener('load-complete', (e) => {
+				splineLoaded = true;
+			});
+		}
 
 		const observer = new IntersectionObserver(
 			(entries) => {
@@ -116,16 +115,15 @@
 
 <style>
 	:root {
-	--primary-bg: #080808;
-	--secondary-bg: #1a1a1a;
-	--card-bg: rgba(28, 28, 30, 0.8);
-	--card-border: rgba(255, 255, 255, 0.08);
-	--text-color: #e0e0e0;
-	--heading-color: #3b82f6; 
-	--accent-gradient: linear-gradient(to right, #60a5fa, #3b82f6); 
-	--shadow-color: rgba(0, 0, 0, 0.7);
-}
-
+		--primary-bg: #080808;
+		--secondary-bg: #1a1a1a;
+		--card-bg: rgba(28, 28, 30, 0.8);
+		--card-border: rgba(255, 255, 255, 0.08);
+		--text-color: #e0e0e0;
+		--heading-color: #3b82f6;
+		--accent-gradient: linear-gradient(to right, #60a5fa, #3b82f6);
+		--shadow-color: rgba(0, 0, 0, 0.7);
+	}
 
 	:global(body) {
 		margin: 0;
