@@ -72,10 +72,10 @@
 	<div class="mt-12 flex flex-wrap gap-4 justify-center">
 		{#each [
 			{ href: "/overview", label: "Overview" },
-			{ href: "/anatomy", label: "Anatomy" },
-			{ href: "/reflexes", label: "Reflexes" },
-			{ href: "/parts", label: "Midbrain / Pons / Medulla" },
-			{ href: "/cranial-nerves", label: "Cranial Nerves" }
+			//{ href: "/anatomy", label: "Anatomy" },
+			//{ href: "/reflexes", label: "Reflexes" },
+			//{ href: "/parts", label: "Midbrain / Pons / Medulla" },
+			//{ href: "/cranial-nerves", label: "Cranial Nerves" }
 		] as item}
 			<a
 				href={item.href}
