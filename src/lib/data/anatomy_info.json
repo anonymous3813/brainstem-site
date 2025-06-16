@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Anatomy of the Brainstem",
+    "text": "The brainstem connects the brain to the spinal cord and is made up of three main parts: the midbrain, pons, and medulla oblongata. It contains vital nuclei and nerve tracts and houses the reticular activating system (RAS)."
+  },
+  {
+    "title": "Appearance and Structure",
+    "text": "The brainstem is tube-shaped, about 2–3 inches long, and resembles a flower stalk. It is composed of both white and gray matter and integrates sensory and motor pathways."
+  },
+  {
+    "title": "Midbrain: Top of the Brainstem",
+    "text": "The midbrain controls motor functions, especially eye movement, and processes visual and auditory information. It connects to the cerebellum via the superior cerebellar peduncles. Damage to the midbrain can lead to issues moving your eyes, drooping eyelids, shaking or stifness, and overall sleepiness or weakness."
+  },
+  {
+    "title": "Anterior Midbrain",
+    "text": "Contains the cerebral peduncles which carry the corticospinal and corticobulbar tracts from the cerebral cortex to the brainstem and spinal cord. This is essential for motor signals to move from the brain to the spinal cord, enabling voluntary movements."
+  },
+  {
+    "title": "Posterior Midbrain (Tectum)",
+    "text": "Home to the superior colliculi (visual processing) and inferior colliculi (auditory processing). These structures help orient the eyes and ears toward stimuli."
+  },
+  {
+    "title": "Pons: The Bridge",
+    "text": "Located between the midbrain and medulla, the pons coordinates facial movements, eye movements, balance, and hearing. It also connects the two sides of the cerebellum. Damage here can cause face paralysis, trouble moving eyes from side to side, hearing loss, diziness, balance issues and sometimes locked-in syndrome, in which a patient is concious but totally paralyzed."
+  },
+  {
+    "title": "Anterior Pons",
+    "text": "Traversed by the basilar artery and contains important motor tracts including the pontocerebellar tracts (coordination) and corticospinal tracts (voluntary motor control). Controls coordination of movement and balance."
+  },
+  {
+    "title": "Posterior Pons",
+    "text": "Connects to the cerebellum through the middle cerebellar peduncles and forms part of the floor of the fourth ventricle. Contains cranial nerves responsible for facial movements, hearing, and balance. Is important for sense related to touch, pain, etc."
+  },
+  {
+    "title": "Medulla Oblongata: Base of the Brainstem",
+    "text": "Controls vital involuntary functions such as breathing, heart rate, blood pressure, and swallowing. It is continuous with the spinal cord. Damage can lead to voice and heart problems, trouble walking, and dizziness."
+  },
+  {
+    "title": "Anterior Medulla",
+    "text": "Contains the pyramids (motor tracts from the cortex), site of motor fiber decussation, and the olivary bodies involved in motor learning and coordination."
+  },
+  {
+    "title": "Posterior Medulla",
+    "text": "Contains the gracilis and cuneatus fasciculi, which carry sensory info from the body. These fibers cross in the medulla and ascend to the thalamus as the medial lemniscus."
+  },
+  {
+    "title": "Reticular Activating System (RAS)",
+    "text": "A neural network within the brainstem that regulates wakefulness, consciousness, and the sleep-wake cycle in collaboration with the thalamus."
+  },
+  {
+    "title": "Cranial Nerves of the Brainstem",
+    "text": "10 out of 12 cranial nerves originate from the brainstem (CN III to XII), controlling facial sensation, taste, hearing, eye and tongue movement, and more."
+  }
+]

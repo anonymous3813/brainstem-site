@@ -1,22 +1,18 @@
 [
 	{
-		"title": "What is the brain stem?",
-		"text": "Experience a blend of interactive 3D models and informative content, all seamlessly integrated into your browser."
+		"title": "Function",
+		"text": "The brainstem controls critical involuntary functions that keep you alive, including breathing, heart rate, blood pressure, swallowing, and sleep cycles."
 	},
 	{
-		"title": "Interactive 3D Environments",
-		"text": "Our Spline model dynamically reacts as you scroll, revealing new perspectives and details with each section."
+		"title": "Connecting Brain and Body",
+		"text": "All sensory and motor signals traveling between your brain and the rest of your body pass through the brainstem, making it your nervous system's main highway."
 	},
 	{
-		"title": "Contextual Information",
-		"text": "Relevant details and descriptions appear alongside the visual experience, providing a rich, layered narrative."
+		"title": "Oldest Brain Structure",
+		"text": "The brainstem is evolutionarily ancient and nearly identical in all vertebrates, highlighting its fundamental importance for survival."
 	},
 	{
-		"title": "Designed for Engagement",
-		"text": "This demonstration showcases how Svelte and Spline can create truly engaging and memorable web experiences."
-	},
-	{
-		"title": "The Journey Continues",
-		"text": "Thank you for exploring this interactive showcase. Imagine the possibilities for your next project!"
+		"title": "Relevance",
+		"text": "Damage to the brainstem can be life-threatening. It can lead to brain death, a coma, paralysis, disruption of breathing, cardiovascular collapse, severe impairments to senses, cognitive issues, and more."
 	}
 ]

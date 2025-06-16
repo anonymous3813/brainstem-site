@@ -1,7 +1,6 @@
 <script lang="ts"> 
 	import { onMount } from 'svelte';
 	import brainstemData from '$lib/data/brainstem_pathways.json';
-	import QuestionCard from '$lib/components/QuestionCard.svelte';
 	import FeedbackCard from '$lib/components/FeedbackCard.svelte';
 	import GameIntroCard from '$lib/components/GameIntroCard.svelte';
 	import GameSummaryCard from '$lib/components/GameSummaryCard.svelte';

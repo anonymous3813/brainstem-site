@@ -35,7 +35,7 @@
     "relatedConditions": ["Loss of protective reflexes"]
   },
   {
-    "signal": "Swallowing (Complex)",
+    "signal": "Swallowing",
     "region": "Medulla",
     "description": "The swallowing center in the medulla coordinates the complex sequence of muscular contractions in the pharynx and esophagus during deglutition.",
     "cranialNerves": ["IX (Glossopharyngeal)", "X (Vagus)", "XII (Hypoglossal)"],
@@ -105,14 +105,14 @@
     "relatedConditions": ["Brainstem lesions", "Corneal abrasion"]
   },
   {
-    "signal": "Equilibrium/Balance (Relay)",
+    "signal": "Equilibrium/Balance",
     "region": "Pons",
     "description": "The pons serves as a crucial relay station for vestibular (balance) information between the inner ear, cerebellum, and higher brain centers.",
     "cranialNerves": ["VIII (Vestibulocochlear) - vestibular portion"],
     "relatedConditions": ["Vertigo", "Ataxia"]
   },
   {
-    "signal": "Hearing (Relay)",
+    "signal": "Hearing",
     "region": "Pons",
     "description": "Auditory pathways pass through and synapse in the pons, specifically in the cochlear nuclei and superior olivary complex, which are important for sound localization.",
     "cranialNerves": ["VIII (Vestibulocochlear) - cochlear portion"],
