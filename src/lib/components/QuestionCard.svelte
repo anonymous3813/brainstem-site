@@ -1,38 +1,21 @@
 <script lang="ts">
-	import type { Pathway } from '$lib/types';
-	const { signal, checkAnswer } = $props();
-	let selectedRegion: null | string = $state(null);
+	import { fly } from 'svelte/transition';
+	import { quintOut } from 'svelte/easing';
+	export let title: string;
+	export let text: string;
+	export let active: boolean;
 </script>
 
-<div
-	class="animate-fadeIn mb-10 rounded-2xl border border-yellow-400 bg-gradient-to-br from-gray-800 via-gray-900 to-black p-6 shadow-xl"
->
+{#if active}
 	<div
-		class="mb-6 text-center text-4xl font-extrabold tracking-wide text-yellow-300 drop-shadow-lg"
+		in:fly={{ x: -60, opacity: 0, duration: 800, easing: quintOut }}
+		out:fly={{ x: 60, opacity: 0, duration: 500 }}
+		class="w-full max-w-[550px] relative overflow-hidden border border-white/10 transform-gpu transition duration-400 bg-[rgba(28,28,30,0.8)] shadow-[0_10px_30px_rgba(0,0,0,0.7)] rounded-3xl p-8 backdrop-blur-md hover:translate-y-[-8px] hover:scale-105 hover:shadow-[0_20px_50px_rgba(0,0,0,0.7)]"
 	>
-		⚡ Signal Detected: <span class="text-white">{signal}</span>
+		<h2 class="mb-4 text-4xl font-extrabold text-blue-500 drop-shadow-[0_0_12px_rgba(32,201,151,0.4)]">
+			{title}
+		</h2>
+		<p class="text-xl leading-relaxed text-gray-200">{text}</p>
+		<div class="absolute bottom-0 left-0 w-full h-[5px] bg-gradient-to-r from-blue-400 to-blue-600 origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"></div>
 	</div>
-
-	<div class="grid grid-cols-1 gap-4 sm:grid-cols-3">
-		{#each ['Midbrain', 'Pons', 'Medulla'] as region}
-			<button
-				class={`transform rounded-lg px-6 py-4 text-xl font-semibold transition-all duration-300 hover:scale-105
-				${selectedRegion === region
-					? 'bg-yellow-600 text-white shadow-lg ring-4 ring-yellow-300'
-					: 'bg-yellow-400 text-gray-900 shadow-md hover:-translate-y-1 hover:bg-yellow-300 hover:shadow-lg focus:-translate-y-1 focus:shadow-lg focus:ring-4 focus:ring-yellow-200 focus:outline-none'
-				}`}
-				onclick={() => {
-                    if(selectedRegion === null) {
-                        checkAnswer(region);
-                        selectedRegion = region;
-						setTimeout(() => {
-							selectedRegion = null;
-						}, 5000);
-                    }
-				}}
-			>
-				{region}
-			</button>
-		{/each}
-	</div>
-</div>
+{/if}
